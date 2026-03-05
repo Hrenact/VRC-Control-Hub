@@ -1,3 +1,5 @@
+![image](ReadMeFile/App-Cover-assets/App-Cover.png "App Cover")
+
 # VRC Control Hub
 
 **VRC Control Hub** 是一个基于 **OSC 协议**、使用 **Unity** 开发的 **VRChat 移动控制器**。
@@ -28,6 +30,8 @@
   （需要 VRChat 提供对应的 OSC 参数接口）
 
 * [ ] 校对并优化 **英文与日文本地化**
+
+* [ ] 更新软件图标，匹配 VRChat 风格
 
 ---
 
