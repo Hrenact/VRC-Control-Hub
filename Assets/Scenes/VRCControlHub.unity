@@ -1274,8 +1274,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 966.5, y: -6255.545}
-  m_SizeDelta: {x: 1933, y: 12511.09}
+  m_AnchoredPosition: {x: 966.5, y: -6402.04}
+  m_SizeDelta: {x: 1933, y: 12804.08}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &117094303
 MonoBehaviour:
@@ -1298,8 +1298,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "<align=center>- About -</align>\n<size=50>\n\xA9 2026 Hrenact\r\n\r\nThis
-    product includes icons from MingCute.\n\r\nCopyright \xA9 MingCute\n\nLicensed
-    under the Apache License, Version 2.0.\n</size>\n<align=center>- License -</align>\n<size=50>\n<align=center>Apache
+    product includes icons from MingCute.\n\r\nCopyright \xA9 MingCute\nLicensed
+    under the Apache License, Version 2.0.\n\nThis software uses HarmonyOS Sans Fonts.\n\nCopyright
+    \xA9 2021 Huawei Device Co., Ltd.\nLicensed under the HarmonyOS Sans Fonts License
+    Agreement.\n</size>\n<align=center>- License -</align>\n<size=50>\n<align=center>Apache
     License\r\nVersion 2.0, January 2004\r\nhttp://www.apache.org/licenses/\r</align>\n\r\n  
     TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\r\n\r\n   1. Definitions.\r\n\r\n     
     \"License\" shall mean the terms and conditions for use, reproduction,\r\n     
@@ -1558,7 +1560,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 75, y: 3.4475021}
-  m_SizeDelta: {x: -150, y: 12511.09}
+  m_SizeDelta: {x: -150, y: 12804.08}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &146712804
 MonoBehaviour:
@@ -7821,8 +7823,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 189871539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.89941967}
-  m_AnchorMax: {x: 1, y: 0.99972445}
+  m_AnchorMin: {x: 0, y: 0.9017212}
+  m_AnchorMax: {x: 1, y: 0.99973077}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -11167,8 +11169,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1223556247}
   m_HandleRect: {fileID: 1223556246}
   m_Direction: 2
-  m_Value: 0.99969375
-  m_Size: 0.1003048
+  m_Value: 0.9997015
+  m_Size: 0.098009564
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
