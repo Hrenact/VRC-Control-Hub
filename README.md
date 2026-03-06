@@ -23,7 +23,7 @@
 * [ ] 模拟鼠标与世界 UI 交互 （需要 VRChat 提供对应的 OSC 参数接口）
 * [ ] 校对并优化 **英文本地化**
 * [ ] 校对并优化 **日文本地化**
-* [ ] 更新软件图标，匹配 VRChat 风格
+* [x] ~~更新软件图标，匹配 VRChat 风格~~
 
 ## 许可证
 
@@ -33,14 +33,16 @@ VRC Control Hub 采用 **Apache License 2.0** 开源协议。
 
 ## 第三方资产
 
-- **MingCute Icons**
-  https://github.com/mingcute-design/mingcute-icons
-  Copyright © MingCute
-  协议：Apache License 2.0
-  许可证文件：Icon/LICENSE
+### **MingCute Icons**
 
-- **HarmonyOS Sans**
-  https://developer.huawei.com/consumer/cn/design/resource-V1
-  Copyright © 2021 Huawei Device Co., Ltd.
-  协议：HarmonyOS Sans Fonts License Agreement
-  许可证文件：Font/LICENSE.txt
+- https://github.com/mingcute-design/mingcute-icons
+- Copyright © MingCute
+- 协议：Apache License 2.0
+- 许可证文件：Icon/LICENSE
+
+### **HarmonyOS Sans**
+
+- https://developer.huawei.com/consumer/cn/design/resource-V1
+- Copyright © 2021 Huawei Device Co., Ltd.
+- 协议：HarmonyOS Sans Fonts License Agreement
+- 许可证文件：Font/LICENSE.txt
