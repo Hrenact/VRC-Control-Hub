@@ -38,11 +38,18 @@ VRC Control Hub 采用 **Apache License 2.0** 开源协议。
 - https://github.com/mingcute-design/mingcute-icons
 - Copyright © MingCute
 - 协议：Apache License 2.0
-- 许可证文件：Icon/LICENSE
+- 许可证文件：`Assets/Icon/LICENSE`
 
 ### **HarmonyOS Sans**
 
 - https://developer.huawei.com/consumer/cn/design/resource-V1
 - Copyright © 2021 Huawei Device Co., Ltd.
 - 协议：HarmonyOS Sans Fonts License Agreement
-- 许可证文件：Font/LICENSE.txt
+- 许可证文件：`Assets/Font/HarmonyOS_Sans/LICENSE.txt`
+
+### **OpenMoji**
+
+- https://github.com/hfg-gmuend/openmoji
+- Copyright © OpenMoji
+- 协议：CC-BY-SA-4.0 license
+- 许可证文件：`Assets/Font/OpenMoji/LICENSE.txt`
