@@ -1,0 +1,26 @@
+{
+  "items": [
+    { "key": "i18n.file.status", "value": "OK" },
+    { "key": "tip.menu", "value": "菜单" },
+    { "key": "tip.safemode", "value": "安全模式" },
+    { "key": "tip.settings", "value": "设置" },
+    { "key": "tip.move", "value": "移动" },
+    { "key": "tip.view", "value": "视角" },
+    { "key": "tip.chatsend", "value": "发送文本" },
+    { "key": "tip.grab", "value": "抓取" },
+    { "key": "tip.drop", "value": "放下" },
+    { "key": "tip.mic", "value": "麦克风" },
+    { "key": "tip.use", "value": "使用" },
+    { "key": "tip.jump", "value": "跳跃" },
+    { "key": "chatbox", "value": "输入文本" },
+    { "key": "settings.title", "value": "设置" },
+    { "key": "settings.ip", "value": "目标地址" },
+    { "key": "settings.port", "value": "目标端口" },
+    { "key": "settings.safemode", "value": "安全模式按钮" },
+    { "key": "settings.chatboxtip", "value": "文本限制提示" },
+    { "key": "settings.uifunction", "value": "显示控件功能" },
+    { "key": "settings.vibration", "value": "启用震动反馈" },
+    { "key": "settings.safearea", "value": "仅限安全区域" },
+    { "key": "settings.language", "value": "更改程序语言" }
+  ]
+}

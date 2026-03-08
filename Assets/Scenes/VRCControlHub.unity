@@ -629,9 +629,9 @@ MonoBehaviour:
   m_fontSize: 75
   m_fontSizeBase: 75
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 0
+  m_fontSizeMax: 75
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
@@ -642,7 +642,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -688,9 +688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u5B89\u5168\u6A21\u5F0F\u6309\u94AE"
-  EnglishText: Safe Mode Button
-  JapaneseText: "\u30BB\u30FC\u30D5\u30E2\u30FC\u30C9\u30DC\u30BF\u30F3"
+  key: settings.safemode
 --- !u!1 &83515614
 GameObject:
   m_ObjectHideFlags: 0
@@ -1044,8 +1042,8 @@ MonoBehaviour:
   m_fontSize: 75
   m_fontSizeBase: 75
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 20
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 0
   m_fontSizeMax: 75
   m_fontStyle: 0
   m_HorizontalAlignment: 1
@@ -1103,9 +1101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u804A\u5929\u6C14\u6CE1\u63D0\u793A"
-  EnglishText: Chat Box Tips
-  JapaneseText: "\u30C1\u30E3\u30C3\u30C8\u30DC\u30C3\u30AF\u30B9\u306E\u30D2\u30F3\u30C8"
+  key: settings.chatboxtip
 --- !u!1 &116150126
 GameObject:
   m_ObjectHideFlags: 0
@@ -1727,9 +1723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u677E\u5F00"
-  EnglishText: Drop
-  JapaneseText: "\u96E2\u3059"
+  key: tip.drop
 --- !u!114 &163670069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2620,9 +2614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u4F7F\u7528"
-  EnglishText: Use
-  JapaneseText: "\u4F7F\u7528"
+  key: tip.use
 --- !u!114 &393543553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2808,9 +2800,9 @@ MonoBehaviour:
   m_fontSize: 100
   m_fontSizeBase: 100
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 0
+  m_fontSizeMax: 100
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -2821,7 +2813,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -2867,9 +2859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u8BBE\u7F6E"
-  EnglishText: Settings
-  JapaneseText: "\u8A2D\u5B9A"
+  key: settings.title
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3076,7 +3066,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &537358666
@@ -3354,9 +3344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u663E\u793A\u63A7\u4EF6\u7528\u9014"
-  EnglishText: Show Control Hints
-  JapaneseText: "\u64CD\u4F5C\u8AAC\u660E\u3092\u8868\u793A"
+  key: settings.uifunction
 --- !u!114 &579502588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3407,8 +3395,8 @@ MonoBehaviour:
   m_fontSize: 75
   m_fontSizeBase: 75
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 20
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 0
   m_fontSizeMax: 75
   m_fontStyle: 0
   m_HorizontalAlignment: 1
@@ -3920,7 +3908,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &644199103
@@ -4245,9 +4233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u4EC5\u9650\u5B89\u5168\u533A\u57DF"
-  EnglishText: Safe Area Only
-  JapaneseText: "\u5B89\u5168\u533A\u57DF\u306E\u307F"
+  key: settings.safearea
 --- !u!114 &737784985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4298,9 +4284,9 @@ MonoBehaviour:
   m_fontSize: 75
   m_fontSizeBase: 75
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 0
+  m_fontSizeMax: 75
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
@@ -4311,7 +4297,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -4345,6 +4331,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 737784982}
   m_CullTransparentMesh: 1
+--- !u!1 &777507019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 777507020}
+  - component: {fileID: 777507021}
+  m_Layer: 0
+  m_Name: i18n
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &777507020
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777507019}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1281492995}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &777507021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777507019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0329a0ed9457fbb46a2217775eb9efe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &786103268
 GameObject:
   m_ObjectHideFlags: 0
@@ -5085,9 +5115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u79FB\u52A8"
-  EnglishText: Move
-  JapaneseText: "\u79FB\u52D5"
+  key: tip.move
 --- !u!114 &912937922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5842,7 +5870,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &945121350
@@ -6207,9 +6235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u89C6\u89D2"
-  EnglishText: View
-  JapaneseText: "\u8996\u70B9"
+  key: tip.view
 --- !u!114 &1039930094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6471,9 +6497,9 @@ MonoBehaviour:
   m_fontSize: 75
   m_fontSizeBase: 75
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 0
+  m_fontSizeMax: 75
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
@@ -6484,7 +6510,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -6530,9 +6556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u76EE\u6807 Port"
-  EnglishText: Target Port
-  JapaneseText: "\u9001\u4FE1\u5148 Port"
+  key: settings.port
 --- !u!1 &1070083220
 GameObject:
   m_ObjectHideFlags: 0
@@ -6680,9 +6704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u5B89\u5168\u6A21\u5F0F"
-  EnglishText: Safe Mode
-  JapaneseText: "\u30BB\u30FC\u30D5\u30E2\u30FC\u30C9"
+  key: tip.safemode
 --- !u!114 &1085895014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6957,9 +6979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u4F7F\u7528\u9707\u52A8\u53CD\u9988"
-  EnglishText: Use Haptic Feedback
-  JapaneseText: "\u632F\u52D5\u3092\u4F7F\u7528\u3059\u308B"
+  key: settings.vibration
 --- !u!114 &1119621623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7010,9 +7030,9 @@ MonoBehaviour:
   m_fontSize: 75
   m_fontSizeBase: 75
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 0
+  m_fontSizeMax: 75
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
@@ -7023,7 +7043,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -7508,9 +7528,9 @@ MonoBehaviour:
   m_fontSize: 75
   m_fontSizeBase: 75
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 0
+  m_fontSizeMax: 75
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
@@ -7521,7 +7541,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -7567,9 +7587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u5207\u6362\u8BED\u8A00"
-  EnglishText: Switch Language
-  JapaneseText: "\u8A00\u8A9E\u5207\u66FF"
+  key: settings.language
 --- !u!1 &1212406778
 GameObject:
   m_ObjectHideFlags: 0
@@ -7847,7 +7865,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.00012207031}
   m_SizeDelta: {x: 0, y: 2423.1}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1232546060
@@ -8037,9 +8055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u83DC\u5355"
-  EnglishText: Menu
-  JapaneseText: "\u30E1\u30CB\u30E5\u30FC"
+  key: tip.menu
 --- !u!1 &1262635452
 GameObject:
   m_ObjectHideFlags: 0
@@ -8321,6 +8337,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 777507020}
   - {fileID: 327468278}
   - {fileID: 1095997469}
   - {fileID: 2006404004}
@@ -8602,9 +8619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u53D1\u9001\u6587\u672C"
-  EnglishText: Send Text
-  JapaneseText: "\u30C6\u30AD\u30B9\u30C8\u9001\u4FE1"
+  key: tip.chatsend
 --- !u!114 &1376646456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9093,9 +9108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u8DF3\u8DC3"
-  EnglishText: Jump
-  JapaneseText: "\u30B8\u30E3\u30F3\u30D7"
+  key: tip.jump
 --- !u!114 &1437153050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9318,9 +9331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u6293\u53D6"
-  EnglishText: Grab
-  JapaneseText: "\u63B4\u3080"
+  key: tip.grab
 --- !u!114 &1490871540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10058,9 +10069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u8F93\u5165\u6587\u672C"
-  EnglishText: Input Text
-  JapaneseText: "\u30C6\u30AD\u30B9\u30C8\u5165\u529B"
+  key: chatbox
 --- !u!1 &1555620022
 GameObject:
   m_ObjectHideFlags: 0
@@ -10334,9 +10343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u8BBE\u7F6E"
-  EnglishText: Settings
-  JapaneseText: "\u8A2D\u5B9A"
+  key: tip.settings
 --- !u!114 &1630770567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10484,9 +10491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u6293\u53D6"
-  EnglishText: Grab
-  JapaneseText: "\u63B4\u3080"
+  key: tip.grab
 --- !u!114 &1647847050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11638,9 +11643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u9EA6\u514B\u98CE"
-  EnglishText: Mic
-  JapaneseText: "\u30DE\u30A4\u30AF"
+  key: tip.mic
 --- !u!114 &1903122026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12282,9 +12285,9 @@ MonoBehaviour:
   m_fontSize: 75
   m_fontSizeBase: 75
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 0
+  m_fontSizeMax: 75
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
@@ -12295,7 +12298,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -12341,9 +12344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2caeecee808b6974a8c26bc814b124d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChineseText: "\u76EE\u6807 IP"
-  EnglishText: Target IP
-  JapaneseText: "\u9001\u4FE1\u5148 IP"
+  key: settings.ip
 --- !u!1 &2064950090
 GameObject:
   m_ObjectHideFlags: 0
@@ -12690,7 +12691,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2105269384

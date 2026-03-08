@@ -124,6 +124,8 @@ public class OscSettingsBehaviour : MonoBehaviour
 
     public void SetLanguage(int languageIndex)
     {
+        I18nManager.Instance.LoadLanguage();
+        
         foreach (var text in FindObjectsOfType<LocalizedText>())
         {
             text.Refresh();

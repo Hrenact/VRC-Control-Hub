@@ -1,3 +1,4 @@
+/*
 using UnityEngine;
 using TMPro;
 
@@ -52,5 +53,35 @@ public class LocalizedText : MonoBehaviour
                 text.text = ChineseText; // 默认中文
                 break;
         }
+    }
+}
+*/
+
+using UnityEngine;
+using TMPro;
+
+[RequireComponent(typeof(TMP_Text))]
+public class LocalizedText : MonoBehaviour
+{
+    public string key;
+
+    private TMP_Text text;
+
+    private void Awake()
+    {
+        text = GetComponent<TMP_Text>();
+    }
+
+    private void OnEnable()
+    {
+        Refresh();
+    }
+
+    public void Refresh()
+    {
+        if (I18nManager.Instance == null)
+            return;
+
+        text.text = I18nManager.Instance.Get(key);
     }
 }

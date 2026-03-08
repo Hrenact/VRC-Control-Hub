@@ -1,0 +1,26 @@
+{
+  "items": [
+    { "key": "i18n.file.status", "value": "Need Test" },
+    { "key": "tip.menu", "value": "Menu" },
+    { "key": "tip.safemode", "value": "Safe Mode" },
+    { "key": "tip.settings", "value": "Settings" },
+    { "key": "tip.move", "value": "Move" },
+    { "key": "tip.view", "value": "Look" },
+    { "key": "tip.chatsend", "value": "Send Text" },
+    { "key": "tip.grab", "value": "Grab" },
+    { "key": "tip.drop", "value": "Drop" },
+    { "key": "tip.mic", "value": "Microphone" },
+    { "key": "tip.use", "value": "Use" },
+    { "key": "tip.jump", "value": "Jump" },
+    { "key": "chatbox", "value": "Enter Text" },
+    { "key": "settings.title", "value": "Settings" },
+    { "key": "settings.ip", "value": "Target IP Address" },
+    { "key": "settings.port", "value": "Target Port" },
+    { "key": "settings.safemode", "value": "Safe Mode Button" },
+    { "key": "settings.chatboxtip", "value": "Text Limit Indicator" },
+    { "key": "settings.uifunction", "value": "Show Control Functions" },
+    { "key": "settings.vibration", "value": "Enable Haptic Feedback" },
+    { "key": "settings.safearea", "value": "Restrict to Safe Area" },
+    { "key": "settings.language", "value": "Change App Language" }
+  ]
+}

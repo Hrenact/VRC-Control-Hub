@@ -1,0 +1,26 @@
+{
+  "items": [
+    { "key": "i18n.file.status", "value": "Need Test" },
+    { "key": "tip.menu", "value": "メニュー" },
+    { "key": "tip.safemode", "value": "セーフモード" },
+    { "key": "tip.settings", "value": "設定" },
+    { "key": "tip.move", "value": "移動" },
+    { "key": "tip.view", "value": "視点" },
+    { "key": "tip.chatsend", "value": "テキスト送信" },
+    { "key": "tip.grab", "value": "つかむ" },
+    { "key": "tip.drop", "value": "離す" },
+    { "key": "tip.mic", "value": "マイク" },
+    { "key": "tip.use", "value": "使用" },
+    { "key": "tip.jump", "value": "ジャンプ" },
+    { "key": "chatbox", "value": "テキスト入力" },
+    { "key": "settings.title", "value": "設定" },
+    { "key": "settings.ip", "value": "送信先IPアドレス" },
+    { "key": "settings.port", "value": "送信先ポート" },
+    { "key": "settings.safemode", "value": "セーフモードボタン" },
+    { "key": "settings.chatboxtip", "value": "文字数制限の表示" },
+    { "key": "settings.uifunction", "value": "操作説明を表示" },
+    { "key": "settings.vibration", "value": "振動フィードバックを有効化" },
+    { "key": "settings.safearea", "value": "セーフエリア内に表示" },
+    { "key": "settings.language", "value": "表示言語を変更" }
+  ]
+}
