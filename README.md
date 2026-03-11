@@ -1,55 +1,64 @@
-![image](ReadMeFile/App-Cover-assets/App-Cover.png "App Cover")
+<p align="center">
+<a href="README.md">English</a> | <a href="README_zh.md">简体中文</a> | <a href="README_ja.md">日本語</a>
+</p>
+
+> [!WARNING]
+> This document may contain machine-translated content. Some translations may be inaccurate.
+
+![image](ReadMeFile/App-Cover-assets/App-Cover-en.png "App Cover")
 
 # VRC Control Hub
 
-**VRC Control Hub** 是一个基于 **OSC 协议**、使用 **Unity** 开发的 **VRChat 移动控制器**。
-目标平台为 **Android 10 及以上版本**。
+**VRC Control Hub** is a **VRChat mobile controller** developed with **Unity**, based on the **OSC protocol**.
+The target platform is **Android 10 and above**.
 
-该应用允许用户通过手机向 VRChat 发送 OSC 输入，从而实现基础的控制与交互。
+This application allows users to send OSC inputs to VRChat from their mobile devices, enabling basic control and interaction.
 
-## 下载
+## Download
 
 已构建的 APK 文件 **`VRCControlHub.apk`** 位于仓库的 **`Release`** 文件夹中。
 
-下载方式：
+The prebuilt APK file **`VRCControlHub.apk`** is located in the repository’s **`Release`** folder.
 
-1. 打开 `Release` 文件夹
-2. 选择 `VRCControlHub.apk`
-3. 点击 **Download raw file** 即可下载
+Download steps:
 
-## 计划功能（TODO）
+1. Open the `Release` folder
+2. Select `VRCControlHub.apk`
+3. Click **Download raw file** to download it
 
-* [ ] 站立 / 坐姿 / 趴姿 切换 （需要 VRChat 提供对应的 OSC 参数接口）
-* [ ] 模拟鼠标与世界 UI 交互 （需要 VRChat 提供对应的 OSC 参数接口）
-* [ ] 校对并优化 **英文本地化**
-* [ ] 校对并优化 **日文本地化**
-* [x] ~~更新软件图标，匹配 VRChat 风格~~
+## Planned Features (TODO)
 
-## 许可证
+* [ ] Switch Standing / Sitting / Prone poses (requires corresponding OSC parameters provided by VRChat)
+* [ ] Simulate mouse interaction with world UI (requires corresponding OSC parameters provided by VRChat)
+* [ ] Review and improve **English localization**
+* [ ] Review and improve **Japanese localization**
+* [x] ~~Update the application icon to match the VRChat style~~
 
-VRC Control Hub 采用 **Apache License 2.0** 开源协议。
+## License
 
-在遵守该许可证条款的前提下，你可以自由使用、修改和分发本项目。
+VRC Control Hub is licensed under the **Apache License 2.0**.
 
-## 第三方资产
+You are free to use, modify, and distribute this project in compliance with the terms of the license.
+
+## Third-Party Assets
 
 ### **MingCute Icons**
 
 - https://github.com/mingcute-design/mingcute-icons
 - Copyright © MingCute
-- 协议：Apache License 2.0
-- 许可证文件：`Assets/Icon/LICENSE`
+- License: Apache License 2.0
+- License file: `Assets/Icon/LICENSE`
 
 ### **HarmonyOS Sans**
 
 - https://developer.huawei.com/consumer/cn/design/resource-V1
 - Copyright © 2021 Huawei Device Co., Ltd.
-- 协议：HarmonyOS Sans Fonts License Agreement
-- 许可证文件：`Assets/Font/HarmonyOS_Sans/LICENSE.txt`
+- License: HarmonyOS Sans Fonts License Agreement
+- License file: `Assets/Font/HarmonyOS_Sans/LICENSE.txt`
 
 ### **OpenMoji**
 
 - https://github.com/hfg-gmuend/openmoji
 - Copyright © OpenMoji
-- 协议：CC-BY-SA-4.0 license
-- 许可证文件：`Assets/Font/OpenMoji/LICENSE.txt`
+- License: CC-BY-SA-4.0 license
+- License file: `Assets/Font/OpenMoji/LICENSE.txt`
