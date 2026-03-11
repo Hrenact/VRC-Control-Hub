@@ -1,3 +1,7 @@
+<p align="center">
+<a href="README.md">English</a> | <a href="README_zh.md">简体中文</a> | <a href="README_ja.md">日本語</a>
+</p>
+
 ![image](ReadMeFile/App-Cover-assets/App-Cover-zh.png "App Cover")
 
 # VRC Control Hub
