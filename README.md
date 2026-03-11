@@ -16,8 +16,6 @@ This application allows users to send OSC inputs to VRChat from their mobile dev
 
 ## Download
 
-已构建的 APK 文件 **`VRCControlHub.apk`** 位于仓库的 **`Release`** 文件夹中。
-
 The prebuilt APK file **`VRCControlHub.apk`** is located in the repository’s **`Release`** folder.
 
 Download steps:
